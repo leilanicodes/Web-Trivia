@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "67e0841d424e5e84b01eb011f2486185",
+    "revision": "c7c3ff8d61dd43df15155c663e952763",
     "url": "/trivia/index.html"
   },
   {
-    "revision": "7fc690592d1b06bdc0ae",
+    "revision": "a15e0dbc71737d71fc43",
     "url": "/trivia/static/css/2.f3cffc9e.chunk.css"
   },
   {
-    "revision": "7538e1e205a36d90217a",
+    "revision": "8f4e30d07211e718bfa2",
     "url": "/trivia/static/css/main.d541ee39.chunk.css"
   },
   {
-    "revision": "7fc690592d1b06bdc0ae",
-    "url": "/trivia/static/js/2.cbcd3c1f.chunk.js"
+    "revision": "a15e0dbc71737d71fc43",
+    "url": "/trivia/static/js/2.cb193fb9.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/trivia/static/js/2.cbcd3c1f.chunk.js.LICENSE.txt"
+    "url": "/trivia/static/js/2.cb193fb9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7538e1e205a36d90217a",
-    "url": "/trivia/static/js/main.b3bb8660.chunk.js"
+    "revision": "8f4e30d07211e718bfa2",
+    "url": "/trivia/static/js/main.5368d39d.chunk.js"
   },
   {
     "revision": "ef294555bde0349958cc",
