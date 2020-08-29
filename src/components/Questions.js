@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { withRouter, NavLink } from 'react-router-dom';
+import { Spinner } from 'reactstrap';
 
 import ScoreModal from './Modal';
 
@@ -9,10 +10,17 @@ export class Questions extends React.Component {
     super();
     this.state = {
       numberCorrect: 0,
+      loading: true,
     };
     this.handleChoice = this.handleChoice.bind(this);
   }
-
+  componentDidMount = () => {
+    setTimeout(() => {
+      this.setState({
+        loading: false,
+      });
+    }, 500);
+  };
   handleChoice(choice, result, buttonId) {
     let button = document.getElementById(buttonId);
 
@@ -52,56 +60,68 @@ export class Questions extends React.Component {
         </nav>
 
         <div className="questions-wrapper trivia" key={results}>
-          {results && results.length
-            ? results.map((result, questionIndex) => (
-                <div className="question" key={result.question}>
-                  <h2>
-                    {questionIndex +
-                      1 +
-                      '. ' +
-                      result.question
-                        .replace(/(&quot\;)/g, '"')
-                        .replace(/&#039;/g, "'")
-                        .replace(/&lt;/g, '<')
-                        .replace(/&gt;/g, '>')}
-                  </h2>
+          {this.state.loading ? (
+            <Spinner
+              color="dark"
+              style={{
+                width: '4rem',
+                height: '4rem',
+              }}
+            />
+          ) : results && results.length ? (
+            results.map((result, questionIndex) => (
+              <div className="question" key={result.question}>
+                <h2>
+                  {questionIndex +
+                    1 +
+                    '. ' +
+                    result.question
+                      .replace(/(&quot\;)/g, '"')
+                      .replace(/&#039;/g, "'")
+                      .replace(/&lt;/g, '<')
+                      .replace(/&gt;/g, '>')}
+                </h2>
 
-                  <form id="choice-form">
-                    {result.shuffledAnswers.map((choice, buttonIndex) => (
-                      <div key={choice.incorrect_answers}>
-                        <button
-                          disabled={false}
-                          type="button"
-                          className="choice"
-                          choice={choice}
-                          dangerouslySetInnerHTML={{ __html: choice }}
-                          id={questionIndex + '-' + buttonIndex}
-                          onClick={() => {
-                            this.handleChoice(
-                              choice,
-                              result,
-                              questionIndex + '-' + buttonIndex
-                            );
-                          }}
-                        >
-                          {/* {choice
+                <form id="choice-form">
+                  {result.shuffledAnswers.map((choice, buttonIndex) => (
+                    <div key={choice.incorrect_answers}>
+                      <button
+                        disabled={false}
+                        type="button"
+                        className="choice"
+                        choice={choice}
+                        dangerouslySetInnerHTML={{ __html: choice }}
+                        id={questionIndex + '-' + buttonIndex}
+                        onClick={() => {
+                          this.handleChoice(
+                            choice,
+                            result,
+                            questionIndex + '-' + buttonIndex
+                          );
+                        }}
+                      >
+                        {/* {choice
                             .replace(/&quot;/g, '"')
                             .replace(/&#039;/g, "'")
                             .replace(/&lt;/g, '<')
                             .replace(/&gt;/g, '>')
                             .replace(/&lrm;/g, '')
                             .replace(/&oacute;/g, 'ó')} */}
-                        </button>
-                      </div>
-                    ))}
-                  </form>
-                </div>
-              ))
-            : 'A category has not been selected yet.'}
-          <ScoreModal
-            buttonLabel="Check Your Score"
-            score={this.state.numberCorrect * 10}
-          />
+                      </button>
+                    </div>
+                  ))}
+                </form>
+              </div>
+            ))
+          ) : (
+            'A category has not been selected yet.'
+          )}
+          {!this.state.loading && (
+            <ScoreModal
+              buttonLabel="Check Your Score"
+              score={this.state.numberCorrect * 10}
+            />
+          )}
         </div>
       </div>
     );

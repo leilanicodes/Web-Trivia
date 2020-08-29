@@ -7,6 +7,7 @@ import { Button } from 'reactstrap';
 export class Home extends React.Component {
   constructor() {
     super();
+
     this.handleClick = this.handleClick.bind(this);
   }
 
