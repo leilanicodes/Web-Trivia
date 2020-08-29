@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/web-trivia/static/css/main.d541ee39.chunk.css",
-    "main.js": "/web-trivia/static/js/main.cb7e82f9.chunk.js",
-    "main.js.map": "/web-trivia/static/js/main.cb7e82f9.chunk.js.map",
+    "main.js": "/web-trivia/static/js/main.27a82322.chunk.js",
+    "main.js.map": "/web-trivia/static/js/main.27a82322.chunk.js.map",
     "runtime-main.js": "/web-trivia/static/js/runtime-main.b6e36269.js",
     "runtime-main.js.map": "/web-trivia/static/js/runtime-main.b6e36269.js.map",
     "static/css/2.f3cffc9e.chunk.css": "/web-trivia/static/css/2.f3cffc9e.chunk.css",
     "static/js/2.8b8818e6.chunk.js": "/web-trivia/static/js/2.8b8818e6.chunk.js",
     "static/js/2.8b8818e6.chunk.js.map": "/web-trivia/static/js/2.8b8818e6.chunk.js.map",
     "index.html": "/web-trivia/index.html",
-    "precache-manifest.9e66028482147256b5450ddd866ca09e.js": "/web-trivia/precache-manifest.9e66028482147256b5450ddd866ca09e.js",
+    "precache-manifest.3837eb2d0a95876292ed37214f9a0f56.js": "/web-trivia/precache-manifest.3837eb2d0a95876292ed37214f9a0f56.js",
     "service-worker.js": "/web-trivia/service-worker.js",
     "static/css/2.f3cffc9e.chunk.css.map": "/web-trivia/static/css/2.f3cffc9e.chunk.css.map",
     "static/css/main.d541ee39.chunk.css.map": "/web-trivia/static/css/main.d541ee39.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.f3cffc9e.chunk.css",
     "static/js/2.8b8818e6.chunk.js",
     "static/css/main.d541ee39.chunk.css",
-    "static/js/main.cb7e82f9.chunk.js"
+    "static/js/main.27a82322.chunk.js"
   ]
 }
