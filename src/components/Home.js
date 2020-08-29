@@ -21,7 +21,9 @@ export class Home extends React.Component {
     return (
       <div className="trivia">
         <div>
-          <h1>Ready to test your trivia skills? Select a category to begin.</h1>
+          <h1 className="header">
+            Ready to test your trivia skills? Select a category to begin.
+          </h1>
           <div id="category">
             <div>
               <NavLink to="/questions">

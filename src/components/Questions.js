@@ -55,11 +55,12 @@ export class Questions extends React.Component {
 
     return (
       <div>
-        <nav>
-          <NavLink to="/">Back to Categories</NavLink>
-        </nav>
-
         <div className="questions-wrapper trivia" key={results}>
+          <nav>
+            <NavLink className="nav-link" to="/">
+              X
+            </NavLink>
+          </nav>
           {this.state.loading ? (
             <Spinner
               color="dark"
@@ -114,9 +115,11 @@ export class Questions extends React.Component {
               </div>
             ))
           ) : (
-            'A category has not been selected yet.'
+            <div>
+              <h2>A category has not been selected yet.</h2>
+            </div>
           )}
-          {!this.state.loading && (
+          {!this.state.loading && results && results.length && (
             <ScoreModal
               buttonLabel="Check Your Score"
               score={this.state.numberCorrect * 10}
