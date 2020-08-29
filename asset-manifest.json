@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Web-Trivia/static/css/main.d541ee39.chunk.css",
+    "main.js": "/Web-Trivia/static/js/main.6d6bdcb6.chunk.js",
+    "main.js.map": "/Web-Trivia/static/js/main.6d6bdcb6.chunk.js.map",
+    "runtime-main.js": "/Web-Trivia/static/js/runtime-main.c7c901e2.js",
+    "runtime-main.js.map": "/Web-Trivia/static/js/runtime-main.c7c901e2.js.map",
+    "static/css/2.f3cffc9e.chunk.css": "/Web-Trivia/static/css/2.f3cffc9e.chunk.css",
+    "static/js/2.b1398bad.chunk.js": "/Web-Trivia/static/js/2.b1398bad.chunk.js",
+    "static/js/2.b1398bad.chunk.js.map": "/Web-Trivia/static/js/2.b1398bad.chunk.js.map",
+    "index.html": "/Web-Trivia/index.html",
+    "precache-manifest.f9b73604dfd1f7e50d1e983578fbb258.js": "/Web-Trivia/precache-manifest.f9b73604dfd1f7e50d1e983578fbb258.js",
+    "service-worker.js": "/Web-Trivia/service-worker.js",
+    "static/css/2.f3cffc9e.chunk.css.map": "/Web-Trivia/static/css/2.f3cffc9e.chunk.css.map",
+    "static/css/main.d541ee39.chunk.css.map": "/Web-Trivia/static/css/main.d541ee39.chunk.css.map",
+    "static/js/2.b1398bad.chunk.js.LICENSE.txt": "/Web-Trivia/static/js/2.b1398bad.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/Web-Trivia/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c7c901e2.js",
+    "static/css/2.f3cffc9e.chunk.css",
+    "static/js/2.b1398bad.chunk.js",
+    "static/css/main.d541ee39.chunk.css",
+    "static/js/main.6d6bdcb6.chunk.js"
+  ]
+}
