@@ -115,6 +115,11 @@ h2 {
   text-shadow: 1px 2px 2px orange;
 }
 
+.btn-info {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
 /* nav a:hover {
   color: skyblue;
   text-decoration: underline;
@@ -176,20 +181,29 @@ img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  #category:last-child {
+    margin-bottom: 3rem;
   }
 
   .header {
     font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
   .trivia {
-    width: 70%;
+    width: 100%;
     border-radius: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
   }
 
-  .choice-form button {
+  .choice {
     font-size: 1rem;
     margin: 0.5rem;
-    width: 100%;
+    width: 300px;
   }
 
   .question h2 {
