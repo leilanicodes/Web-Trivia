@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import App from '../App';
 import Home from './Home';
 import Questions from './Questions';
@@ -13,7 +13,7 @@ const Routes = () => {
         <main>
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route exact path="/questions" component={Questions} />
+            <Route exact path="/questions/:category" component={Questions} />
           </Switch>
         </main>
       </div>

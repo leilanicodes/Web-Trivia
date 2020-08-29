@@ -5,17 +5,17 @@ import { withRouter, NavLink } from 'react-router-dom';
 import { Button } from 'reactstrap';
 
 export class Home extends React.Component {
-  constructor() {
-    super();
+  // constructor() {
+  //   super();
 
-    this.handleClick = this.handleClick.bind(this);
-  }
+  //   this.handleClick = this.handleClick.bind(this);
+  // }
 
-  handleClick(event) {
-    console.log('event', event);
-    // console.log('e', e);
-    this.props.getQuestions(event.target.value);
-  }
+  // handleClick(event) {
+  //   console.log('event', event);
+  //   // console.log('e', e);
+  //   this.props.getQuestions(event.target.value);
+  // }
 
   render() {
     return (
@@ -26,72 +26,72 @@ export class Home extends React.Component {
           </h1>
           <div id="category">
             <div>
-              <NavLink to="/questions">
+              <NavLink to="/questions/geography">
                 <Button
                   type="button"
                   color="success"
                   // style={{ backgroundColor: '#28a745' }}
-                  value="geography"
-                  onClick={this.handleClick}
+                  // value="geography"
+                  // onClick={this.handleClick}
                 >
                   Geography
                 </Button>
               </NavLink>
-              <NavLink to="/questions">
+              <NavLink to="/questions/games">
                 <Button
                   // style={{ backgroundColor: '#dc3545' }}
                   color="danger"
                   size="large"
-                  value="games"
-                  onClick={this.handleClick}
+                  // value="games"
+                  // onClick={this.handleClick}
                 >
                   Games
                 </Button>
               </NavLink>
-              <NavLink to="/questions">
+              <NavLink to="/questions/animals">
                 <Button
-                  value="animals"
                   color="primary"
-                  onClick={this.handleClick}
+                  // value="animals"
+                  // onClick={this.handleClick}
                 >
                   Animals
                 </Button>
               </NavLink>
             </div>
             <div>
-              <NavLink to="/questions">
+              <NavLink to="/questions/computers">
                 <Button
-                  value="computers"
                   // style={{ backgroundColor: '#6c757d' }}
                   color="secondary"
-                  onClick={this.handleClick}
+                  // value="computers"
+                  // onClick={this.handleClick}
                 >
                   Computers
                 </Button>
               </NavLink>
-              <NavLink to="/questions">
+              <NavLink to="/questions/history">
                 <Button
-                  value="history"
                   // style={{ backgroundColor: '#ffc107' }}
                   color="warning"
-                  onClick={this.handleClick}
+                  // value="history"
+                  // onClick={this.handleClick}
                 >
                   History
                 </Button>
               </NavLink>
-              <NavLink to="/questions">
+              <NavLink to="/questions/tv">
                 <Button
-                  value="tv"
                   // style={{ backgroundColor: '#17a2b8' }}
                   color="info"
-                  onClick={this.handleClick}
+                  // value="tv"
+                  // onClick={this.handleClick}
                 >
                   TV
                 </Button>
               </NavLink>
             </div>
             <div>
-              <NavLink to="/questions">
+              <NavLink to="/questions/music">
                 <Button
                   value="music"
                   className="music"
@@ -101,22 +101,22 @@ export class Home extends React.Component {
                   Music
                 </Button>
               </NavLink>
-              <NavLink to="/questions">
+              <NavLink to="/questions/books">
                 <Button
-                  value="books"
                   className="books"
                   // style={{ backgroundColor: '#FF7F50', color: 'black' }}
-                  onClick={this.handleClick}
+                  // value="books"
+                  // onClick={this.handleClick}
                 >
                   Books
                 </Button>
               </NavLink>
-              <NavLink to="/questions">
+              <NavLink to="/questions/sports">
                 <Button
-                  value="sports"
                   className="sports"
                   // style={{ backgroundColor: '#8B0000' }}
-                  onClick={this.handleClick}
+                  // value="sports"
+                  // onClick={this.handleClick}
                 >
                   Sports
                 </Button>

@@ -31,17 +31,20 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 88%;
+  margin-top: 2rem;
 }
 
-.questions-wrapper trivia {
+/* .questions-wrapper trivia {
   position: absolute;
-}
+} */
 .questions-wrapper {
-  display: flex;
+  /* display: flex;
   align-items: center;
+  /* justify-content: center; */
   position: relative;
   flex-direction: column;
-  margin-top: 2rem;
+  min-width: 88%;
 }
 #category .btn {
   font-size: 1.7rem;
