@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/trivia/static/css/main.d541ee39.chunk.css",
+    "main.css": "/trivia/static/css/main.f63b7cb0.chunk.css",
     "main.js": "/trivia/static/js/main.5368d39d.chunk.js",
     "main.js.map": "/trivia/static/js/main.5368d39d.chunk.js.map",
     "runtime-main.js": "/trivia/static/js/runtime-main.36b073f9.js",
@@ -9,10 +9,10 @@
     "static/js/2.cb193fb9.chunk.js": "/trivia/static/js/2.cb193fb9.chunk.js",
     "static/js/2.cb193fb9.chunk.js.map": "/trivia/static/js/2.cb193fb9.chunk.js.map",
     "index.html": "/trivia/index.html",
-    "precache-manifest.0677844f08c0a6ba296a4f214da82312.js": "/trivia/precache-manifest.0677844f08c0a6ba296a4f214da82312.js",
+    "precache-manifest.09fd6ad993c9ecc674c76c18334df375.js": "/trivia/precache-manifest.09fd6ad993c9ecc674c76c18334df375.js",
     "service-worker.js": "/trivia/service-worker.js",
     "static/css/2.f3cffc9e.chunk.css.map": "/trivia/static/css/2.f3cffc9e.chunk.css.map",
-    "static/css/main.d541ee39.chunk.css.map": "/trivia/static/css/main.d541ee39.chunk.css.map",
+    "static/css/main.f63b7cb0.chunk.css.map": "/trivia/static/css/main.f63b7cb0.chunk.css.map",
     "static/js/2.cb193fb9.chunk.js.LICENSE.txt": "/trivia/static/js/2.cb193fb9.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/trivia/static/media/logo.5d5d9eef.svg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.36b073f9.js",
     "static/css/2.f3cffc9e.chunk.css",
     "static/js/2.cb193fb9.chunk.js",
-    "static/css/main.d541ee39.chunk.css",
+    "static/css/main.f63b7cb0.chunk.css",
     "static/js/main.5368d39d.chunk.js"
   ]
 }
